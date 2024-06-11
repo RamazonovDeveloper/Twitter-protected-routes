@@ -1,0 +1,46 @@
+.registers {
+  width: 670px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.register {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.registers h2 {
+  font-family: Segoe UI;
+  font-size: 30px;
+  margin-top: 43px;
+  font-weight: 700;
+}
+.registers input {
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 23px 20px;
+  border-radius: 6px;
+  border: 1px solid #00000033;
+  outline: none;
+  margin-bottom: 25px;
+}
+.registers a {
+  color: white;
+}
+.registers h4 {
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 40px 0 10px;
+}
+.registers p {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.registers .dateInp {
+  display: flex;
+  gap: 20px;
+}

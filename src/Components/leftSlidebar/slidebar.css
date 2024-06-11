@@ -1,0 +1,35 @@
+.leftSlideBar {
+  width: 268px;
+  padding: 30px;
+  background-color: white;
+}
+.leftNavIcon {
+  width: 40px;
+}
+
+.leftNav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.leftNav a {
+  display: flex;
+  align-items: center;
+}
+.leftNav a img {
+  margin-right: 20px;
+}
+.leftNav .active {
+  font-weight: 700;
+}
+.leftNav .people{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftNav .people img{
+ margin: 0;
+}

@@ -1,0 +1,84 @@
+.rightbar {
+  width: 373px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rightbarDiv {
+  position: fixed;
+}
+.rightbar .search {
+  display: flex;
+  padding: 20px 15px;
+  align-items: center;
+  background-color: #eff3f4;
+  width: 100%;
+  border-radius: 31px;
+  gap: 20px;
+}
+.rightbar .search input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: inherit;
+}
+.rightbar .trends {
+  padding: 24px 20px;
+  background-color: #f7f9f9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.rightbar .trends .trendsTag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+.rightbar .trends .messageDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.rightbar .trends .messageDiv .messageTexts p {
+  opacity: 0.6;
+}
+.rightbar .trends .messageDiv .messageTexts h3 {
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin: 2px 0 3px;
+}
+.rightbar .trends a {
+  color: #1da1f2;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.rightbar .trends .people {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.rightbar .trends .people img {
+  width: 60px;
+  margin-right: 13px;
+}
+.rightbar .trends .people .peopleText {
+  font-weight: 600;
+  font-size: 18px;
+}
+.rightbar .trends .people .peopleText p {
+  font-weight: 400;
+}
+.rightbar .trends .people button {
+  padding: 10px 18px;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 50px;
+}

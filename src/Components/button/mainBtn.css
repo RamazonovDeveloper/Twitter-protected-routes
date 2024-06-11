@@ -1,0 +1,11 @@
+.MainBtn {
+  padding: 18px;
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 76px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
